@@ -1,6 +1,6 @@
 # metabolic-interior-optima
 
-Reproduction materials for the manuscript *"Selection-rule-dependent interior modulation optima in human genome-scale metabolic networks"* (Onishi Tatsuki). The repository contains the analysis code, configuration, frozen result CSVs, figures, unit tests, and data provenance — no manuscript or submission files.
+Reproduction materials for the manuscript *"State-selection and perturbation rules determine interior optima in human metabolic networks"* (Onishi Tatsuki). The repository contains the analysis code, configuration, frozen result CSVs, figures, unit tests, and data provenance — no manuscript or submission files.
 
 ## Contents
 
