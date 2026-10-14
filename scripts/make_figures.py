@@ -67,7 +67,7 @@ axes[0].set_ylabel("total |flux| (normalized, sign-flipped)")
 for ax in axes:
     ax.set_xlabel("restriction fraction u"); ax.legend(frameon=False, fontsize=6)
 axes[0].set_title("A  Human-GEM"); axes[1].set_title("B  Recon3D")
-fig.tight_layout(); fig.savefig(f"{FIG}/fig3_parsimony_nopm.png"); plt.close(fig)
+fig.tight_layout(); fig.savefig(f"{FIG}/fig4_parsimony_nopm.png"); plt.close(fig)
 
 # ---- Fig 4: Pareto view — ATP rate vs ATP/glucose, GAPDH both models
 fig, ax = plt.subplots(figsize=(3.4, 3.0))
@@ -80,7 +80,7 @@ for d, rid, lab, col, m in [(gH, "MAR04373", "Human-GEM GAPDH", "tab:red", "o"),
             ax.annotate(f"u={r.modulation_fraction}", (r.atp_demand, r.atp_per_glc), fontsize=6)
 ax.set_xlabel("ATP production rate (J_atp)"); ax.set_ylabel("ATP per glucose")
 ax.legend(frameon=False, fontsize=7)
-fig.tight_layout(); fig.savefig(f"{FIG}/fig4_pareto_gapdh.png"); plt.close(fig)
+fig.tight_layout(); fig.savefig(f"{FIG}/fig3_pareto_gapdh.png"); plt.close(fig)
 
 # ---- manuscript_values.csv — headline numbers from files
 def J(d, rid, metric, u):
@@ -105,6 +105,10 @@ for tag, path in [("human2_full", "class_human2_full.csv"), ("recon3d_full", "cl
     c = pd.read_csv(f"{SC}/{path}")
     rec(f"nopm_combos_{tag}", int((c.type == "II").sum()), path)
     rec(f"classified_combos_{tag}", int(len(c)), path)
+    if "fine_pilot" not in tag:
+        ii = c[c.type == "II"]
+        rec(f"nopm_primary_independent_{tag}", int(ii.metric.isin(["atp_per_glc","atp_per_carbon"]).sum()), path)
+        rec(f"nopm_secondary_total_flux_{tag}", int((ii.metric == "total_flux").sum()), path)
 
 pd.DataFrame(values).to_csv("manuscript/manuscript_values.csv", index=False)
 print("figures:", sorted(os.listdir(FIG)))

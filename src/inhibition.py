@@ -33,6 +33,22 @@ def apply_modulation(model, rid, u, method="fva_informed", span=None, v_ref=0.0)
         # capacity proxy; u=1 collapses it to zero flux (full block),
         # u=0 leaves the native span untouched.
         r.bounds = (fmin * rem, fmax * rem)
+    elif method == "fva_directional":
+        # Direction-aware asymmetric restriction (Gate-5 robustness): tighten
+        # only the bound on the physiologically used side (sign of v_ref),
+        # preserving the opposite bound at its FVA-span value. At u=1 the
+        # active direction is fully blocked; the unused direction is untouched.
+        fmin, fmax = span
+        if v_ref < 0:
+            lb, ub = fmin * rem, fmax
+            if lb > ub:  # restricted side crossed the span: full block
+                lb, ub = 0.0, 0.0
+            r.bounds = (lb, ub)
+        else:
+            lb, ub = fmin, fmax * rem
+            if lb > ub:
+                lb, ub = 0.0, 0.0
+            r.bounds = (lb, ub)
     else:
         raise ValueError(method)
     return r.bounds

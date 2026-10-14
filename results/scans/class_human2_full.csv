@@ -70,7 +70,7 @@ MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,glc
 MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,total_flux,lower,II,0.9,-1296.6666666666997,-1098.3333333333433,-1074.3333333333314,0.17146529562984264,0.01850899742931456,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,total_flux,lower,0,0.9,-1296.6666666666997,-1098.3333333333433,-1074.3333333333314,0.17146529562984264,0.01850899742931456,7
 MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_demand,higher,0,1.0,119.99999999999996,120.00000000000004,120.00000000000004,7.105427357600999e-16,0.0,7
 MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_per_glc,higher,0,1.0,11.999999999999996,12.000000000000004,12.000000000000004,5.9211894646675e-16,0.0,7
 MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999998,6.000000000000002,6.000000000000002,5.9211894646675e-16,0.0,7
@@ -88,7 +88,7 @@ MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,glc_uptake,lower,
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_out,lower,III,0.0,-0.0,-9.999999999999956,-0.0,0.0,9999999999.999954,7
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_per_atp,lower,III,0.0,-0.0,-0.0909090909090905,-0.0,0.0,90909090.90909049,7
-MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,total_flux,lower,II,0.75,-1296.666666666666,-1493.3333333333303,-1282.4999999999386,0.010925449871512179,0.1625964010283227,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,total_flux,lower,0,0.75,-1296.666666666666,-1493.3333333333303,-1282.4999999999386,0.010925449871512179,0.1625964010283227,7
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_demand,higher,0,0.9,119.99999999999996,119.99999999999996,120.00000000000004,7.105427357600999e-16,7.105427357600999e-16,7
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_glc,higher,0,0.9,11.999999999999996,11.999999999999996,12.000000000000004,5.9211894646675e-16,5.9211894646675e-16,7
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_o2,higher,0,0.9,5.999999999999998,5.999999999999998,6.000000000000002,5.9211894646675e-16,5.9211894646675e-16,7
@@ -178,7 +178,7 @@ MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,glc_upt
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,total_flux,lower,II,0.9,-1296.6666666666715,-1256.666666666672,-1243.4916666666463,0.041008997429325185,0.010160668380482466,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,total_flux,lower,0,0.9,-1296.6666666666715,-1256.666666666672,-1243.4916666666463,0.041008997429325185,0.010160668380482466,7
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_demand,higher,0,0.0,119.99999999999692,20.0,119.99999999999692,0.0,0.833333333333329,7
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_glc,higher,0,0.0,11.999999999999693,2.0,11.999999999999693,0.0,0.833333333333329,7
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999846,20000000000.0,20000000000.0,0.9999999997,0.0,7
@@ -232,7 +232,7 @@ MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,total_flux,lower,II,0.9,-1296.666666666666,-1256.666666666668,-1243.4916666666525,0.04100899742931642,0.010160668380474793,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,total_flux,lower,0,0.9,-1296.666666666666,-1256.666666666668,-1243.4916666666525,0.04100899742931642,0.010160668380474793,7
 MAR20069,MAR20069,,atp_demand,higher,0,0.0,119.99999999999996,115.99999999999996,119.99999999999996,0.0,0.03333333333333335,7
 MAR20069,MAR20069,,atp_per_glc,higher,0,0.0,11.999999999999996,11.599999999999996,11.999999999999996,0.0,0.033333333333333375,7
 MAR20069,MAR20069,,atp_per_o2,higher,0,0.0,5.999999999999998,5.799999999999998,5.999999999999998,0.0,0.033333333333333375,7
@@ -241,4 +241,4 @@ MAR20069,MAR20069,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
 MAR20069,MAR20069,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 MAR20069,MAR20069,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 MAR20069,MAR20069,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-MAR20069,MAR20069,,total_flux,lower,II,0.9,-1296.6666666666788,-1256.6666666666713,-1243.4916666666463,0.04100899742933057,0.010160668380481883,7
+MAR20069,MAR20069,,total_flux,lower,0,0.9,-1296.6666666666788,-1256.6666666666713,-1243.4916666666463,0.04100899742933057,0.010160668380481883,7

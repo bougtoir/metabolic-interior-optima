@@ -44,6 +44,7 @@ def scan_reaction(model, rid, cfg, condition, state_method, mod_method,
     rows = []
     for u in u_grid:
         t0 = time.time()
+        r.bounds = orig  # reset to native bounds: bound_scaling must scale from orig, not from the previous grid point's shrunk bounds
         apply_modulation(model, rid, u, method=mod_method, span=span, v_ref=v_ref)
         ok, status, obj = feasible(model)
         row = dict(reaction_id=rid, reaction_name=r.name, subsystem=r.subsystem or "",

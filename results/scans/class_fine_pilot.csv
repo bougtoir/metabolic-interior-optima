@@ -106,7 +106,7 @@ MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,glc_uptake,lower,
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,21
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_out,lower,III,0.0,-0.0,-9.999999999999956,-0.0,0.0,9999999999.999954,21
 MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_per_atp,lower,III,0.0,-0.0,-0.0909090909090905,-0.0,0.0,90909090.90909049,21
-MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,total_flux,lower,II,0.7000000000000001,-1296.666666666666,-1493.3333333333303,-1272.8666666666695,0.01835475578405904,0.17002570694086958,21
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,total_flux,lower,0,0.7000000000000001,-1296.666666666666,-1493.3333333333303,-1272.8666666666695,0.01835475578405904,0.17002570694086958,21
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_demand,higher,0,0.9,119.99999999999996,119.99999999999996,120.00000000000004,7.105427357600999e-16,7.105427357600999e-16,21
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_glc,higher,0,0.9,11.999999999999996,11.999999999999996,12.000000000000004,5.9211894646675e-16,5.9211894646675e-16,21
 MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_o2,higher,0,0.9,5.999999999999998,5.999999999999998,6.000000000000002,5.9211894646675e-16,5.9211894646675e-16,21
@@ -205,7 +205,7 @@ MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,glc_upt
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,21
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
 MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
-MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,total_flux,lower,II,0.8500000000000001,-1296.666666666666,-1256.666666666672,-1236.90416666667,0.04608933161953418,0.015241002570695533,21
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,total_flux,lower,0,0.8500000000000001,-1296.666666666666,-1256.666666666672,-1236.90416666667,0.04608933161953418,0.015241002570695533,21
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_demand,higher,0,0.0,119.99999999999932,20.0,119.99999999999932,0.0,0.8333333333333324,21
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_glc,higher,0,0.0,11.999999999999932,2.0,11.999999999999932,0.0,0.8333333333333324,21
 MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999966,20000000000.0,20000000000.0,0.9999999997,0.0,21
@@ -268,7 +268,7 @@ MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,21
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
 MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
-MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,total_flux,lower,II,0.8500000000000001,-1296.666666666666,-1256.666666666668,-1236.9041666666656,0.04608933161953768,0.015241002570696058,21
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,total_flux,lower,0,0.8500000000000001,-1296.666666666666,-1256.666666666668,-1236.9041666666656,0.04608933161953768,0.015241002570696058,21
 MAR20069,MAR20069,,atp_demand,higher,0,0.0,119.99999999999996,115.99999999999996,119.99999999999996,0.0,0.03333333333333335,21
 MAR20069,MAR20069,,atp_per_glc,higher,0,0.0,11.999999999999996,11.599999999999996,11.999999999999996,0.0,0.033333333333333375,21
 MAR20069,MAR20069,,atp_per_o2,higher,0,0.0,5.999999999999998,5.799999999999998,5.999999999999998,0.0,0.033333333333333375,21
@@ -277,4 +277,4 @@ MAR20069,MAR20069,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,21
 MAR20069,MAR20069,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,21
 MAR20069,MAR20069,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
 MAR20069,MAR20069,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,21
-MAR20069,MAR20069,,total_flux,lower,II,0.8500000000000001,-1296.666666666666,-1256.6666666666713,-1236.9041666666924,0.04608933161951699,0.015241002570677821,21
+MAR20069,MAR20069,,total_flux,lower,0,0.8500000000000001,-1296.666666666666,-1256.6666666666713,-1236.9041666666924,0.04608933161951699,0.015241002570677821,21

@@ -1,0 +1,7 @@
+robust human2_aerobic_pfba_bound_scaling: 567 rows (1151s)
+robust human2_aerobic_moma_linear_bound_scaling: 84 rows (1664s)
+robust human2_glucose_limited_pfba_bound_scaling: 567 rows (1233s)
+robust human2_glucose_limited_moma_linear_bound_scaling: 84 rows (1604s)
+robust human2_oxygen_limited_pfba_bound_scaling: 567 rows (1178s)
+robust human2_oxygen_limited_moma_linear_bound_scaling: 84 rows (1896s)
+done

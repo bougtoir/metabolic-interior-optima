@@ -1,0 +1,7 @@
+robust recon3d_aerobic_pfba_bound_scaling: 462 rows (719s)
+robust recon3d_aerobic_moma_linear_bound_scaling: 42 rows (721s)
+robust recon3d_glucose_limited_pfba_bound_scaling: 462 rows (722s)
+robust recon3d_glucose_limited_moma_linear_bound_scaling: 42 rows (933s)
+robust recon3d_oxygen_limited_pfba_bound_scaling: 462 rows (680s)
+robust recon3d_oxygen_limited_moma_linear_bound_scaling: 42 rows (685s)
+done

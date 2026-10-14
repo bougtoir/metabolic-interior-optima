@@ -43,7 +43,7 @@ CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,glc_uptake,lower,0,0.0,-10.0,-10
 CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,total_flux,lower,II,0.1,-2184.873096447379,-2101.0659898477197,-2093.248730964655,0.04193578365338744,0.003577900655088732,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,total_flux,lower,0,0.1,-2184.873096447379,-2101.0659898477197,-2093.248730964655,0.04193578365338744,0.003577900655088732,7
 DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_demand,higher,III,0.9,121.5228426395936,93.94247038917088,121.52284263959392,2.5726752019918745e-15,0.22695627958785874,7
 DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_per_glc,higher,III,0.9,12.15228426395936,9.394247038917088,12.152284263959393,2.7773198203321372e-15,0.22695627958785877,7
 DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_per_o2,higher,III,0.9,6.07614213197968,4.697123519458544,6.076142131979696,2.7773198203321372e-15,0.22695627958785877,7
@@ -178,7 +178,7 @@ PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,1.0,-1
 PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
 PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
 PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
-PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,total_flux,lower,II,0.75,-2184.8730964467013,-2029.7800338409495,-2009.7851648391188,0.08013643075761753,0.009151501308862612,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,total_flux,lower,0,0.75,-2184.8730964467013,-2029.7800338409495,-2009.7851648391188,0.08013643075761753,0.009151501308862612,7
 TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_demand,higher,0,0.0,121.52284263959524,111.52284263959396,121.52284263959524,0.0,0.08228905597327613,7
 TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_per_glc,higher,0,0.0,12.152284263957847,11.152284263959436,12.152284263957847,0.0,0.08228905597314627,7
 TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_per_o2,higher,0,0.0,6.076142131979761,5.576142131979699,6.076142131979761,0.0,0.08228905597327583,7

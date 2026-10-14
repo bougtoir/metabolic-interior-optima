@@ -12,6 +12,7 @@ def classify(J, u, cfg):
     """
     J = np.asarray(J, float); u = np.asarray(u, float)
     tol = cfg["classification_tolerance"]
+    bio = cfg.get("biological_threshold", 0.0)
     eps = cfg.get("epsilon", 1e-9)
     valid = np.isfinite(J)
     info = {"n_feasible": int(valid.sum())}
@@ -28,7 +29,9 @@ def classify(J, u, cfg):
     info.update(J0=J0, J1=J1, J_opt=J_opt, gain0=gain0, gain1=gain1)
 
     interior = tol < u_opt < 1 - tol
-    better_both = gain0 > tol and gain1 > tol
+    # Type II (and I) require a *meaningful* gain: max(tol, biological_threshold)
+    req = max(tol, bio)
+    better_both = gain0 > req and gain1 > req
     flat_frac = float(np.mean(np.abs(Jv - J_opt) <= tol * scale))
 
     if not (np.isfinite(J0) and np.isfinite(J1)):
